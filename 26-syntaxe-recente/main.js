@@ -1,2 +1,4 @@
 const utilisateur = { stats: { points: 0 } };
-// Complétez ici.
+const pseudo = utilisateur.profil?.pseudo ?? "Anonyme";
+const points = utilisateur.stats?.points ?? 0;
+console.log(pseudo, points)
