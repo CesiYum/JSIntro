@@ -1,0 +1,1 @@
+// Exportez la fonction calculerTotal.

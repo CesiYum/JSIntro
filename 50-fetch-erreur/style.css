@@ -1,0 +1,1 @@
+:root { font-family: Arial, sans-serif; color: #1e0f1c; background: #f3ffff; } body { margin: 2rem auto; padding: 0 1rem; max-width: 48rem; } button, input, select { font: inherit; padding: .55rem; margin: .3rem; } button { background: #0d75c2; color: white; border: 0; cursor: pointer; } article, li { margin-block: .6rem; } :focus-visible { outline: 3px solid #fdb228; }
