@@ -1,2 +1,7 @@
+const liste = document.querySelector("#taches")
 
-// Complétez ici.
+liste.addEventListener("click", (event) => {
+  if (event.target.tagName == "BUTTON") {
+    event.target.parentElement.remove()
+  }
+})
