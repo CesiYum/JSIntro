@@ -1,1 +1,3 @@
-// Exportez la fonction calculerTotal.
+export function calculerTotal(prix, quantite) {
+  return prix * quantite
+}

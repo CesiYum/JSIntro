@@ -1,2 +1,2 @@
 import { calculerTotal } from './calculs.js';
-// Appelez la fonction.
+console.log(calculerTotal(8, 3))
