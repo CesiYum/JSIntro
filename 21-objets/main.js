@@ -1,2 +1,4 @@
 const profil = { nom: 'Maya', role: 'membre' };
-// Complétez ici.
+const { nom, ville = "Inconnue" } = profil
+const profilAdmin = { ...profil, role: "admin" }
+console.log(nom, ville, profilAdmin, profil.role)
